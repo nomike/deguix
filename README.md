@@ -22,5 +22,3 @@ becomes
 ```shell
 deguix cmake -DEXPERIMENTAL=1 -DENABLE_PYTHON=1 -DENABLE_LIBFIVE=1  ..
 ```
-
-W
