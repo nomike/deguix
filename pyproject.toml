@@ -28,7 +28,7 @@ dev = [
 ]
 
 [project.scripts]
-deguix = "ecdklint.cli:run"
+deguix = "deguix.cli:run"
 
 [project.urls]
 homepage = "https://github.com/nomike/deguix"

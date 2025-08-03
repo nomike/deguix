@@ -16,13 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with deguix.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Run commands without Guix environment variables."""
+from deguix.cli import run
 
-APP_NAME = "deguix"
-APP_VERSION = "0.0.1"
-APP_DESCRIPTION = __doc__
-
-__author__ = "nomike Postmann"
-__copyright__ = "Copyright 2025, nomike Postmann"
-__license__ = "GPLv3"
-__version__ = APP_VERSION
+if __name__ == "__main__":
+    run()
